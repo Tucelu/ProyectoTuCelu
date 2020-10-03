@@ -1,2 +1,2 @@
 Ariel
-profesor
+Ariel
