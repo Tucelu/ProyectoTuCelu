@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="CSS\Home.css" rel="stylesheet" type="text/css">
+  <link rel="Icon" href="Imagenes\Comunes\logo.Ico">
+</head>
+<body background="Imagenes/Comunes/Fondo_LoginReg.jpg" >
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbarestructura1">
+        <img src="Imagenes\Comunes\logo.png"class ="Logo"> 
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto lista">
+            <li class="nav-item titulo">
+                <a>TuCelu.Cl - </a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="Tucelu.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Celulares.html">Celulares</a>                 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Accesorios.html">Accesorios</a>
+            </li>
+          </ul>
+        </div>  
+    </nav>
+  </header>
+  <div>
+    <div id="Formulario_login">
+      <form action="" class="formulario">
+          <h1 class="formulario__titulo">Ingresar</h1>
+          <br>
+          <br>
+          <input type="email" class= "formulario__input">
+          <label for="" class="formulario__label">Correo</label>
+          <input type="password" class= "formulario__input">
+          <label for="" class="formulario__label">Constraeña</label>
+          <input type="submit" class= "formulario__submit" value="Ingresar" onclick="login()">
+          <button type="button" id="Registrar">¿No tienes cuenta?</button>
+      </form>
+    </div>
+    <div id="Formulario_Registro">
+      <form action="" class="formulario">
+          <h1 class="formulario__titulo">Registro</h1>
+          <br>
+          <br>
+          <input type="username" class= "formulario__input">
+          <label for="" class="formulario__label">Nombre</label>
+          <input type="email" class= "formulario__input">
+          <label for="" class="formulario__label">Correo</label>
+          <input type="password" class= "formulario__input">
+          <label for="" class="formulario__label">Constraeña</label>
+          <input type="password" class= "formulario__input">
+          <label for="" class="formulario__label">Confirmar contraseña </label>
+          <input type="submit" class= "formulario__submit" value="Registrar" onclick="registro()">
+          <button type="button" id="Loguearse">Ya tengo Cuenta</button> 
+      </form>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-bottom navbarestructura2">
+    <p>SERVICIO AL CLIENTE
+      •Términos y Condiciones
+      •Privacidad y Seguridad
+      •Orden de Servicio
+      •Términos y Condiciones Servicio de Garantía Daño y Robo
+      •Representante Legal
+      •Bases y Promociones
+      •Términos y Condiciones Servicio de Garantía Extendida
+    </p>
+  </nav>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+  <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
+  <script src="JavaScript\script.js"></script>
+</body>
+</html>
